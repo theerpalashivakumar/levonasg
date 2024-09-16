@@ -1,10 +1,10 @@
 import { CHANGE_LIGHT, REQUEST_CROSSING, RESET_TIMER, EMERGENCY_OVERRIDE, START_COUNTDOWN } from './actionTypes';
 
 const initialState = {
-  currentLight: "green",  // green, yellow, red
+  currentLight: "green",  
   pedestrianRequested: false,
   emergencyOverride: false,
-  countdown: 10,  // Timer for the lights
+  countdown: 10,  
 };
 
 const trafficLightReducer = (state = initialState, action) => {
